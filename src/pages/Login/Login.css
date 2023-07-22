@@ -1,0 +1,8 @@
+.btn-outline.btn-primary {
+  --tw-text-opacity: 1;
+  color: whitesmoke;
+}
+.btn-outline.btn-primary:hover {
+  background-color: blue;
+  color: white;
+}

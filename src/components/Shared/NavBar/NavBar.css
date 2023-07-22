@@ -1,0 +1,21 @@
+:where(.menu li:not(.menu-title):not(.disabled) > *:not(ul):not(details):not(.menu-title)):not(.active):hover, :where(.menu li:not(.menu-title):not(.disabled) > details > summary:not(.menu-title)):not(.active):hover {
+    cursor: pointer;
+    background-color: white;
+    --tw-text-opacity: 1;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+/* .menu li > *:not(ul):not(details):active, .menu li > *:not(ul):not(details).active, .menu li > details > summary:active {
+    --tw-bg-opacity: 0.1;
+    background-color: red;
+    --tw-text-opacity: 0.1;
+    color: white;
+} */
+:where(.menu li:not(.menu-title):not(.disabled) > *:not(ul):not(details):not(.menu-title)):not(summary):not(.active).focus, :where(.menu li:not(.menu-title):not(.disabled) > *:not(ul):not(details):not(.menu-title)):not(summary):not(.active):focus, :where(.menu li:not(.menu-title):not(.disabled) > *:not(ul):not(details):not(.menu-title)):is(summary):not(.active):focus-visible, :where(.menu li:not(.menu-title):not(.disabled) > details > summary:not(.menu-title)):not(summary):not(.active).focus, :where(.menu li:not(.menu-title):not(.disabled) > details > summary:not(.menu-title)):not(summary):not(.active):focus, :where(.menu li:not(.menu-title):not(.disabled) > details > summary:not(.menu-title)):is(summary):not(.active):focus-visible {
+    cursor: pointer;
+    background-color: whitesmoke;
+    --tw-text-opacity: 1;
+    color: black;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
